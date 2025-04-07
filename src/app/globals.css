@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add smooth transitions */
+.testimonial-card {
+  transition: all 0.3s ease;
+}
+
+/* Improve readability */
+.testimonial-quote {
+  line-height: 1.6;
+}
+
+/* Make dots more clickable */
+.dot-indicator {
+  transition: background-color 0.3s ease;
+}
