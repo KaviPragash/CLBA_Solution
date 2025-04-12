@@ -1,5 +1,8 @@
+"use client";
 export default function IndexPage() {
     return (
+
+      <section id="home">
       <div className="relative w-full min-h-screen flex flex-col pt-16">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
@@ -23,7 +26,7 @@ export default function IndexPage() {
               className="w-full md:w-2/3 lg:w-1/2 flex flex-col space-y-6"
               data-aos="zoom-out"
             >
-              <p className="text-grey-300 text-xl md:text-2xl font-medium tracking-wider">
+              <p className="text-white text-xl md:text-3xl font-medium tracking-wider">
                 Corporate And Legal Business Accounts Solutions (Private) Limited
               </p>
               
@@ -39,10 +42,21 @@ export default function IndexPage() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-300">
-                  Explore Our Services
-                </button>
-                <button className="px-8 py-4 bg-transparent border-2 border-gray-100 text-gray-100 text-lg font-semibold rounded-lg hover:bg-white/10 transition-all duration-300">
+              <button
+                onClick={() => {
+                  const el = document.getElementById("services");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              >
+                Explore Our Services
+              </button>
+                <button 
+                onClick={() => {
+                  const el = document.getElementById("footer");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="px-8 py-4 bg-transparent border-2 border-gray-100 text-gray-100 text-lg font-semibold rounded-lg hover:bg-white/10 transition-all duration-300">
                   Contact Our Experts
                 </button>
               </div>
@@ -81,5 +95,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+    </section>
+      
     );
   }

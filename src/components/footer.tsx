@@ -2,7 +2,8 @@
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-gray-800 text-white py-12 px-6">
+        <section id="footer">
+      <footer className="w-full bg-gray-800 text-white py-12 px-6">
             <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Section 1: Logo and Description */}
                 <div className="text-center md:text-left">
@@ -18,9 +19,8 @@ export default function Footer() {
                     <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul className="space-y-2">
                         <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
-                        <li><a href="about" className="text-gray-400 hover:text-white">About</a></li>
-                        <li><a href="courses" className="text-gray-400 hover:text-white">Services</a></li>
-                        <li><a href="university" className="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#services" className="text-gray-400 hover:text-white">Services</a></li>
                     </ul>
                 </div>
 
@@ -29,10 +29,9 @@ export default function Footer() {
                     <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
                     <ul className="space-y-2 text-gray-400">
                     <li>CLBA (Corporate And Legal Business Accounts) Solutions</li>
-                        <li>No. 93/A, 1/1, Colombo Road, Negombo, Sri Lanka.</li>
-                        <li>Email: info@mybridge.lk </li>
-                        <li>Phone: 071 15 22 915</li>
-                        <li>Fax: 031 222 80 25 </li>
+                        <li>Colombo, Sri Lanka.</li>
+                        <li>Email: info@clbasolutions.com </li>
+                        <li>Phone:  +94 76 138 9834</li>
                     </ul>
                 </div>
 
@@ -67,18 +66,10 @@ export default function Footer() {
             {/* Copyright Section */}
             <div className="mt-8 border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
                 &copy; {new Date().getFullYear()} Corporate And Legal Business Accounts Solutions. All rights reserved.
-                <p>
-                    Developed by{" "}
-                    <a 
-                        href="https://www.verveautomation.com" // Replace with the correct URL
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="font-semibold text-blue-500"
-                    >
-                        Verveautomation (PVT) LTD
-                    </a>
-                </p>
             </div>
         </footer>
+    </section>
+
+        
     );
 }

@@ -42,7 +42,8 @@ const services = [
 
 export default function MainServices() {
   return (
-    <div className="relative py-20 md:py-28 lg:py-36 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="services">
+      <div className="relative py-20 md:py-28 lg:py-36 bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-white to-transparent z-10"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 rounded-full bg-indigo-100/50 blur-3xl -mr-32 -mb-32"></div>
@@ -106,5 +107,8 @@ export default function MainServices() {
         </div>
       </div>
     </div>
+    </section>
+
+    
   );
 }

@@ -4,7 +4,8 @@ import { FiCheckCircle, FiAward, FiUsers, FiBriefcase } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="bg-white w-full py-16 md:py-24 lg:py-32">
+    <section id="about">
+      <div className="bg-white w-full py-16 md:py-24 lg:py-32">
       {/* Max Width Container */}
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-12 xl:gap-16 items-center">
@@ -77,6 +78,9 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
+
+    
   );
 };
 
