@@ -8,7 +8,7 @@ const Testimonials = () => {
     {
       id: 1,
       quote:
-        'The registration process was a breeze, and the team was always available to answer my questions. I highly recommend their services to anyone seeking assistance with business registration. Thank you, CBSL Solutions!',
+        'The registration process was a breeze, and the team was always available to answer my questions. I highly recommend their services to anyone seeking assistance with business registration. Thank you, CLBA Solutions!',
       author: 'Dilan',
       position: 'Director, Alpha Engineering',
       rating: 5,

@@ -28,7 +28,7 @@ export default function Footer() {
                 <div className="text-center md:text-left">
                     <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
                     <ul className="space-y-2 text-gray-400">
-                    <li>CLBA (Corporate And Legal Business Accounts) Solutions</li>
+                    <li>CLBA (Corporate And Legal, Business & Accounts) Solutions</li>
                         <li>Colombo, Sri Lanka.</li>
                         <li>Email: info@clbasolutions.com </li>
                         <li>Phone:  +94 76 138 9834</li>
@@ -65,7 +65,7 @@ export default function Footer() {
 
             {/* Copyright Section */}
             <div className="mt-8 border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
-                &copy; {new Date().getFullYear()} Corporate And Legal Business Accounts Solutions. All rights reserved.
+                &copy; {new Date().getFullYear()} Corporate And Legal, Business & Accounts Solutions. All rights reserved.
             </div>
         </footer>
     </section>

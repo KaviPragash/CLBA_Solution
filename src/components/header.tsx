@@ -17,12 +17,12 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-lg py-2" : "bg-white/90 backdrop-blur-sm py-4"}`}>
+    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-lg py-2" : "bg-white/90 backdrop-blur-sm py-4"}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo + Site Name */}
-        <a href="#home" className="flex items-center space-x-4 hover:opacity-80 transition-opacity">
+        <a href="#home" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
           <Image
-            src="/assets/img/Corporate &.png"
+            src="/assets/img/WhatsApp_Image_2025-04-12_at_10.31.20-removebg-preview.png"
             alt="CLBA Solution Logo"
             width={60}
             height={60}
